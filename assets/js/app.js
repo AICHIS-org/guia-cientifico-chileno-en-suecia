@@ -182,7 +182,11 @@
     fetch(id, { cache: "no-cache" })
       .then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.text(); })
       .then(function (md) {
-        art.innerHTML = window.marked.parse(md);
+        // marked convierte Markdown → HTML; DOMPurify limpia cualquier HTML
+        // peligroso (scripts, onerror, javascript:, etc.) antes de insertarlo.
+        // Es una segunda capa, independiente de la CSP de index.html.
+        var html = window.marked.parse(md);
+        art.innerHTML = window.DOMPurify ? window.DOMPurify.sanitize(html) : html;
         decorate(art, id);
 
         // pie "editar esta página"
