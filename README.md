@@ -86,6 +86,7 @@ Es un sitio **estático, sin instalación ni build** (la misma filosofía que el
 - `assets/js/app.js` — descarga y muestra el Markdown de `guia/`, arma la barra lateral, el buscador y la navegación.
 - `assets/css/styles.css` — los estilos.
 - `assets/js/vendor/marked.min.js` — convierte Markdown a HTML (librería [marked](https://marked.js.org), MIT).
+- `assets/js/vendor/purify.min.js` — limpia el HTML resultante por seguridad, antes de mostrarlo ([DOMPurify](https://github.com/cure53/DOMPurify), Cure53). Es una segunda capa de protección, además de la Content-Security-Policy de `index.html`.
 - `assets/img/` — ilustración y favicon.
 
 **Para verlo en tu computador**, desde esta carpeta:
