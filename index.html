@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Content-Security-Policy: todo se sirve desde este mismo sitio; las
+       tipografías vienen de Google Fonts. Si agregas un servicio externo,
+       anótalo aquí o el navegador lo bloqueará. -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; base-uri 'self'; form-action 'none'; object-src 'none'" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <title>Guía del científico chileno en Suecia · AiCHIS</title>
+  <meta name="description" content="Guía práctica para investigadoras e investigadores chilenos que se instalan en Suecia: permisos de residencia, personnummer, salud, impuestos, banco y vida cotidiana. Mantenida por AiCHIS." />
+  <meta property="og:title" content="Guía del científico chileno en Suecia" />
+  <meta property="og:description" content="Permisos, personnummer, salud, impuestos y vida cotidiana para quienes llegan desde Chile. Hecha por y para la comunidad de AiCHIS." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600;700&display=swap" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+</head>
+<body>
+  <a class="skip-link" href="#content">Saltar al contenido</a>
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="site-header">
+    <div class="header-inner">
+      <button class="icon-btn menu-btn" id="menu-btn" aria-label="Abrir el índice">
+        <svg viewBox="0 0 24 24"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+
+      <a class="brand" href="#/" aria-label="Inicio de la guía">
+        <span class="flag" aria-hidden="true"><i class="b"></i><i class="y"></i><i class="r"></i></span>
+        <span class="brand-name">Guía Chile&nbsp;→&nbsp;Suecia<small>para científicas y científicos · AiCHIS</small></span>
+      </a>
+
+      <span class="header-spacer"></span>
+
+      <div class="header-actions">
+        <button class="icon-btn theme-btn" id="theme-btn" aria-label="Cambiar tema claro / oscuro">
+          <svg class="sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><line x1="12" y1="2" x2="12" y2="5"/><line x1="12" y1="19" x2="12" y2="22"/><line x1="2" y1="12" x2="5" y2="12"/><line x1="19" y1="12" x2="22" y2="12"/><line x1="4.9" y1="4.9" x2="7" y2="7"/><line x1="17" y1="17" x2="19.1" y2="19.1"/><line x1="4.9" y1="19.1" x2="7" y2="17"/><line x1="17" y1="7" x2="19.1" y2="4.9"/></svg>
+          <svg class="moon" viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        </button>
+        <a class="ghlink" href="https://github.com/AICHIS-org/guia-cientifico-chileno-en-suecia" target="_blank" rel="noopener">
+          <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+          <span>GitHub</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===================== LAYOUT ===================== -->
+  <div class="backdrop" id="backdrop"></div>
+  <div class="layout">
+    <aside class="sidebar" aria-label="Índice de la guía">
+      <div class="search-wrap">
+        <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input id="search" type="search" placeholder="Buscar sección…" autocomplete="off" aria-label="Buscar sección" />
+      </div>
+      <nav id="nav"><!-- la barra lateral se arma desde manifest.js --></nav>
+    </aside>
+
+    <main class="content" id="content"><!-- el contenido se pinta desde app.js --></main>
+  </div>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>AiCHIS — Asociación de Investigadores Chilenos en Suecia · Borrador v0.2 · octubre de 2026</div>
+      <div class="footer-links">
+        <a href="https://aichis-org.github.io/" target="_blank" rel="noopener">Sitio de AiCHIS</a>
+        <a href="#/CONTRIBUTING.md">Contribuir</a>
+        <a href="#/PENDIENTES.md">Pendientes</a>
+        <a href="https://github.com/AICHIS-org/guia-cientifico-chileno-en-suecia" target="_blank" rel="noopener">Código</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/vendor/marked.min.js"></script>
+  <script src="assets/js/manifest.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

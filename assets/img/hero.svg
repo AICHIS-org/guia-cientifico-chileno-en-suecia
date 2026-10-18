@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="hero-title hero-desc">
+  <title id="hero-title">A journey from Chile to Sweden</title>
+  <desc id="hero-desc">Andean peaks, a travel suitcase with a science emblem, and a red Swedish cabin among pine trees are connected by a dotted route beneath a bright northern sky.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E7F3FA"/>
+      <stop offset="1" stop-color="#F7F9FC"/>
+    </linearGradient>
+    <linearGradient id="distant-hill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#C5DDE8"/>
+      <stop offset="1" stop-color="#E8F0EF"/>
+    </linearGradient>
+    <clipPath id="panel-clip">
+      <rect x="8" y="8" width="1184" height="544" rx="36"/>
+    </clipPath>
+  </defs>
+
+  <rect x="8" y="8" width="1184" height="544" rx="36" fill="#F7F9FC" stroke="#DCE8EE" stroke-width="2"/>
+  <g clip-path="url(#panel-clip)">
+    <rect x="9" y="9" width="1182" height="542" fill="url(#sky)"/>
+
+    <!-- A pale sun and a few rounded clouds keep the sky open. -->
+    <circle cx="990" cy="112" r="51" fill="#FECC00" opacity=".26"/>
+    <circle cx="990" cy="112" r="31" fill="#FECC00"/>
+    <path d="M105 111h104m-72-13c7-18 33-18 40 0m-62 13c-3-14 8-25 21-25" fill="none" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" opacity=".8"/>
+    <path d="M788 82h91m-65-12c5-13 23-13 28 0" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" opacity=".72"/>
+    <circle cx="309" cy="92" r="3" fill="#006AA7" opacity=".35"/>
+    <circle cx="724" cy="147" r="3" fill="#006AA7" opacity=".35"/>
+
+    <!-- The Andes settle into lower northern hills. -->
+    <path d="M8 351 91 268l37 39 92-128 81 113 53-71 112 132 70-57 92 83H8Z" fill="#D7E6EB"/>
+    <path d="m8 368 83-100 37 39 92-128 81 113 53-71 112 132 70-57 92 83v63H8Z" fill="url(#distant-hill)"/>
+    <path d="m157 267 63-88 64 89-39-20-25 14-21-20Z" fill="#F7F9FC"/>
+    <path d="m308 283 46-62 53 63-31-19-22 12-19-15Z" fill="#F7F9FC"/>
+    <path d="m69 294 22-26 26 28-19-8-11 8-8-7Z" fill="#F7F9FC" opacity=".9"/>
+    <path d="M580 362c95-66 166-57 255-45 118 15 207-57 357-16v150H580Z" fill="#D9EBEC"/>
+    <path d="M8 387c167-43 265-10 385-31 126-23 186-41 293 2 153 60 278-13 506-9v203H8Z" fill="#E8F1EA"/>
+
+    <!-- The dotted journey crosses the generous area of sky. -->
+    <path d="M172 211C324 74 617 53 849 199" fill="none" stroke="#006AA7" stroke-width="4" stroke-linecap="round" stroke-dasharray="1 15" opacity=".72"/>
+    <circle cx="169" cy="214" r="12" fill="#F7F9FC" stroke="#D52B1E" stroke-width="5"/>
+    <circle cx="849" cy="199" r="12" fill="#F7F9FC" stroke="#006AA7" stroke-width="5"/>
+    <g transform="translate(550 92) rotate(11)">
+      <path d="M-35 1-6-3 10-26c3-4 8-5 12-3L12-3l30 5c6 1 8 5 4 8L12 12l-12 15-9-1 6-16-31 1-10 8-7-2 6-13-6-13 7-2Z" fill="#006AA7"/>
+      <path d="m-6-3 18 0-5 13-10 0Z" fill="#0B2545" opacity=".16"/>
+    </g>
+
+    <!-- Nordic tree silhouettes behind the house. -->
+    <g fill="#7EAAA8">
+      <path d="m747 379 33-92 33 92h-15l21 35h-78l21-35Z"/>
+      <path d="m1056 362 30-91 31 91h-13l20 35h-74l19-35Z"/>
+      <path d="m1132 388 26-73 27 73h-11l18 29h-67l18-29Z"/>
+    </g>
+    <g fill="#4B8588">
+      <path d="m684 410 32-91 32 91h-14l21 37h-78l21-37Z"/>
+      <path d="m1093 406 31-96 32 96h-14l23 39h-82l24-39Z"/>
+    </g>
+    <g stroke="#315F68" stroke-width="7" stroke-linecap="round">
+      <path d="M716 419v35M780 381v53M1086 373v44M1124 407v49M1158 391v39"/>
+    </g>
+
+    <!-- Low ground and a broad path invite the eye toward the cabin. -->
+    <path d="M8 449c144-24 255 32 407 7 118-20 221-4 294 13 145 35 258-22 483-31v114H8Z" fill="#C8DED5"/>
+    <path d="M8 493c153-13 260 39 418 18 94-12 207-1 318 14 179 23 307-13 448-9v36H8Z" fill="#AFCFC4" opacity=".55"/>
+    <path d="M533 552c15-54 101-83 179-92 85-10 126-38 182-47 38-7 67-3 92 6-43-1-72 6-103 18-70 29-113 56-179 69-64 13-82 27-88 46Z" fill="#F4E3B2"/>
+    <path d="M648 538c64-39 114-32 178-68 27-15 49-28 68-33" fill="none" stroke="#F7F9FC" stroke-width="4" stroke-linecap="round" opacity=".8"/>
+
+    <!-- A small Falu-red cabin with a snowy roof. -->
+    <path d="M847 348 948 271l108 77v112H847Z" fill="#D52B1E"/>
+    <path d="M836 350 948 262l119 88-12 15-107-79-102 79Z" fill="#0B2545"/>
+    <path d="M836 350 948 262l119 88-11 9-108-79-102 79Z" fill="#F7F9FC"/>
+    <path d="M847 348h209v17H847Z" fill="#B6231E" opacity=".38"/>
+    <rect x="917" y="376" width="61" height="84" rx="3" fill="#F4E3B2"/>
+    <rect x="927" y="386" width="41" height="74" fill="#0B2545"/>
+    <circle cx="961" cy="427" r="3" fill="#FECC00"/>
+    <rect x="866" y="373" width="34" height="40" rx="2" fill="#F7F9FC"/>
+    <rect x="873" y="380" width="20" height="25" fill="#92C6D5"/>
+    <path d="M883 380v25m-10-13h20" stroke="#F7F9FC" stroke-width="3"/>
+    <rect x="993" y="373" width="39" height="40" rx="2" fill="#F7F9FC"/>
+    <rect x="1000" y="380" width="25" height="25" fill="#92C6D5"/>
+    <path d="M1012 380v25m-12-13h25" stroke="#F7F9FC" stroke-width="3"/>
+    <rect x="1010" y="279" width="23" height="49" rx="2" fill="#D52B1E"/>
+    <path d="M1005 281h33l-5-9h-23Z" fill="#F7F9FC"/>
+
+    <!-- A cheerful travel case, with a flask as a research emblem. -->
+    <ellipse cx="367" cy="510" rx="130" ry="15" fill="#0B2545" opacity=".12"/>
+    <path d="M328 321v-32c0-12 10-22 22-22h31c12 0 22 10 22 22v32" fill="none" stroke="#0B2545" stroke-width="12" stroke-linecap="round"/>
+    <path d="M329 320v-29c0-10 8-18 18-18h37c10 0 18 8 18 18v29" fill="none" stroke="#F7F9FC" stroke-width="4"/>
+    <rect x="256" y="318" width="219" height="182" rx="27" fill="#0B2545"/>
+    <rect x="263" y="318" width="204" height="176" rx="24" fill="#FECC00"/>
+    <path d="M443 318h3c12 0 21 10 21 24v128c0 13-9 24-21 24h-3Z" fill="#E9B900"/>
+    <path d="M288 335v142" stroke="#FFE27A" stroke-width="7" stroke-linecap="round"/>
+    <path d="M327 319v175m78-175v175" stroke="#0B2545" stroke-width="5" opacity=".16"/>
+    <rect x="287" y="491" width="32" height="22" rx="6" fill="#0B2545"/>
+    <rect x="411" y="491" width="32" height="22" rx="6" fill="#0B2545"/>
+    <circle cx="303" cy="513" r="7" fill="#34516B"/>
+    <circle cx="427" cy="513" r="7" fill="#34516B"/>
+    <circle cx="366" cy="407" r="48" fill="#F7F9FC" stroke="#0B2545" stroke-width="4"/>
+    <path d="M356 382h20m-15 0v19l-16 25c-3 5 0 11 6 11h31c6 0 9-6 6-11l-17-25v-19" fill="none" stroke="#006AA7" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M350 421c9-5 15 6 23 0 4-3 7-3 11-1l5 10c2 4-1 7-7 7h-31c-6 0-9-6-6-11Z" fill="#006AA7"/>
+    <circle cx="359" cy="414" r="3" fill="#006AA7"/>
+    <circle cx="376" cy="411" r="2" fill="#006AA7"/>
+
+    <!-- A small Chilean copihue adds warmth to the near foreground. -->
+    <path d="M134 552c-4-51 9-83 32-111" fill="none" stroke="#4B8588" stroke-width="6" stroke-linecap="round"/>
+    <path d="M143 510c-31-8-40-29-39-38 25-1 39 9 43 29m6-19c7-23 27-30 41-27-4 21-18 32-41 34" fill="#6C9E86"/>
+    <path d="M166 439c-3 11-3 19 1 27" fill="none" stroke="#4B8588" stroke-width="4" stroke-linecap="round"/>
+    <path d="M153 461c-2-17 3-29 12-31 6 11 13 12 19 7 4 18-4 34-17 38-7-1-12-6-14-14Z" fill="#D52B1E"/>
+    <path d="M159 461c4 8 9 10 14 9" fill="none" stroke="#F28471" stroke-width="3" stroke-linecap="round"/>
+    <path d="M99 540h13m84-6h18m291-8h19m549-30h18" stroke="#6C9E86" stroke-width="4" stroke-linecap="round" opacity=".7"/>
+  </g>
+</svg>

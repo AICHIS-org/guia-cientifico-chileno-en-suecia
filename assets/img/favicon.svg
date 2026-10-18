@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Guía Chile–Suecia">
+  <rect width="64" height="64" rx="14" fill="#006AA7"/>
+  <!-- cruz nórdica -->
+  <rect x="20" y="0" width="10" height="64" fill="#FECC00"/>
+  <rect x="0" y="27" width="64" height="10" fill="#FECC00"/>
+  <!-- guiño chileno: estrella -->
+  <path d="M46 20 l2.6 5.3 5.8.8 -4.2 4.1 1 5.8 -5.2-2.7 -5.2 2.7 1-5.8 -4.2-4.1 5.8-.8z" fill="#D52B1E"/>
+</svg>
